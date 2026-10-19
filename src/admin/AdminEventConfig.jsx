@@ -43,22 +43,6 @@ export default function AdminEventConfig({ config, onGuardar }) {
           <input value={form.hora} onChange={(e) => campo("hora", e.target.value)} />
         </label>
         <label>
-          Fecha/hora de inicio (para el calendario)
-          <input
-            type="datetime-local"
-            value={form.fecha_inicio_iso?.slice(0, 16) ?? ""}
-            onChange={(e) => campo("fecha_inicio_iso", e.target.value + ":00-03:00")}
-          />
-        </label>
-        <label>
-          Fecha/hora de término (para el calendario)
-          <input
-            type="datetime-local"
-            value={form.fecha_fin_iso?.slice(0, 16) ?? ""}
-            onChange={(e) => campo("fecha_fin_iso", e.target.value + ":00-03:00")}
-          />
-        </label>
-        <label>
           Dirección
           <input value={form.direccion} onChange={(e) => campo("direccion", e.target.value)} />
         </label>

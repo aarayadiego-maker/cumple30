@@ -215,8 +215,6 @@ Después de publicar, verifica tú mismo:
 - [ ] Cambia algo en Configuración (ej. la hora) y revisa que se vea
       reflejado en la página pública al recargarla.
 - [ ] Botón "Cómo llegar" abre Google Maps.
-- [ ] Botón "Agregar al calendario" descarga un `.ics` que abre bien
-      en tu Calendario del celular.
 - [ ] Manda el link por WhatsApp a ti mismo y revisa que aparezca la
       vista previa con imagen, título y descripción (puede tardar
       unos minutos en actualizarse la primera vez — WhatsApp cachea

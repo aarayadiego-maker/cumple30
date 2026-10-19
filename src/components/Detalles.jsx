@@ -18,7 +18,7 @@ export default function Detalles({ config, onAsistire }) {
         ref={refIntro}
         className={`mensaje-intro fade-in ${introVisible ? "visible" : ""}`}
       >
-        Hace año que no celebro mi cumpleaños y este, quisiera hacerlo junto a
+        Hace años que no celebro mi cumpleaños y este, quisiera hacerlo junto a
         ustedes. Será un día de piscina y asado a las afueras de Santiago.
       </p>
 

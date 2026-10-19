@@ -76,8 +76,6 @@ create table if not exists public.event_config (
   descripcion text not null default 'Te invito a celebrar mis 15... 18 años después.',
   fecha text not null default 'Sábado 14 de Noviembre',
   hora text not null default 'Desde las 11:00 hrs hasta las 19:00 hrs',
-  fecha_inicio_iso timestamptz not null default '2026-11-14T11:00:00-03:00',
-  fecha_fin_iso timestamptz not null default '2026-11-14T19:00:00-03:00',
   direccion text not null default 'Camino San Javier, Malloco, RM',
   maps_url text not null default 'https://www.google.com/maps/search/?api=1&query=Camino+San+Javier%2C+Malloco%2C+RM',
   indicaciones text not null default '',

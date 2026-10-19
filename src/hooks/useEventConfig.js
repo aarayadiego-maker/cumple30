@@ -9,8 +9,6 @@ const DEFAULTS = {
   descripcion: "Te invito a celebrar mis 15... 18 años después.",
   fecha: "Sábado 14 de Noviembre",
   hora: "Desde las 11:00 hrs hasta las 19:00 hrs",
-  fecha_inicio_iso: "2026-11-14T11:00:00-03:00",
-  fecha_fin_iso: "2026-11-14T19:00:00-03:00",
   direccion: "Camino San Javier, Malloco, RM",
   maps_url:
     "https://www.google.com/maps/search/?api=1&query=Camino+San+Javier%2C+Malloco%2C+RM",
